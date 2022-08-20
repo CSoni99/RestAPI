@@ -9,14 +9,6 @@ public class Model {
     String total_pages;
     ArrayList<data> data;
 
-    public String getPage() {
-        return page;
-    }
-
-    public void setPage(String page) {
-        this.page = page;
-    }
-
     public String getPer_page() {
         return per_page;
     }
