@@ -9,6 +9,14 @@ public class Model {
     String total_pages;
     ArrayList<data> data;
 
+    public String getProduct() {
+        return product;
+    }
+
+    public void setProduct(String product) {
+        this.product = product;
+    }
+
     public String getPer_page() {
         return per_page;
     }
